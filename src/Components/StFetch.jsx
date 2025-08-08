@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Card, Row, Col } from "react-bootstrap";
-import "../Components/StarWarsFetch.css";
+import "../Components/StFetch.css";
 
-class StarWarsFetch extends Component {
+class StFetch extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -11,7 +11,7 @@ class StarWarsFetch extends Component {
   }
 
   componentDidMount() {
-    fetch("http://www.omdbapi.com/?apikey=92e5b050&s=Star%20Wars")
+    fetch("https://www.omdbapi.com/?apikey=92e5b050&s=Stranger%20Things")
       .then((response) => response.json())
       .then((data) => {
         if (data.Search) {
@@ -44,4 +44,4 @@ class StarWarsFetch extends Component {
   }
 }
 
-export default StarWarsFetch;
+export default StFetch;

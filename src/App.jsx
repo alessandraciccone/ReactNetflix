@@ -1,8 +1,8 @@
 import "./App.css";
 import MyNavBar from "./Components/MyNavbar.jsx";
 import Titolo from "./Components/Titolo.jsx";
-import StarWarsFetch from "./Components/StarWarsFetch.jsx";
-import Sw from "./Components/Sw.jsx";
+import StFetch from "./Components/StFetch.jsx";
+import St from "./Components/St.jsx";
 import Dexter from "./Components/Dexter.jsx";
 import Dexterfetch from "./Components/DexterFetch.jsx";
 import Got from "./Components/Got.jsx";
@@ -13,8 +13,8 @@ function App() {
     <>
       <MyNavBar />
       <Titolo />
-      <Sw />
-      <StarWarsFetch />
+      <St />
+      <StFetch />
       <Dexter />
       <Dexterfetch />
       <Got />
