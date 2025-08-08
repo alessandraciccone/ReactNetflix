@@ -1,0 +1,17 @@
+
+
+.card-img-fixed {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-square {
+  height: 250px;
+  aspect-ratio: 1 / 1; 
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
