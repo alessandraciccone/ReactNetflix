@@ -37,6 +37,10 @@ class GotFetch extends Component {
                 src={movie.Poster}
                 alt={movie.Title}
                 className="card-img-fixed"
+                onError={(e) => {
+                  e.currentTarget.src =
+                    "https://via.placeholder.com/300x450?text=No+Image";
+                }}
               />
             </Card>
           </Col>
